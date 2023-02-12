@@ -1,0 +1,33 @@
+.proposals {
+  display: flex;
+  padding: 0;
+}
+
+.proposals__box {
+  padding: 84px 44px 84px 30px;
+  background-color: var(--third-background-color);
+}
+
+.proposals__text {
+  margin-bottom: 5px;
+
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.65;
+  color: var(--secondary-text-color);
+}
+
+.proposals__title {
+  margin-bottom: 26px;
+
+  color: var(--secondary-text-color);
+}
+
+.proposals__article {
+  margin-bottom: 17px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}

@@ -1,0 +1,23 @@
+.footer {
+  padding: 20px 0;
+  background-color: var(--footer-background-color);
+}
+
+.footer__list {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.footer__icon {
+  fill: var(--primary-background-color);
+}
+
+.footer__text {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+  color: var(--secondary-text-color);
+}

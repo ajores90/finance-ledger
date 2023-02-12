@@ -1,0 +1,112 @@
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  font-size: 18px;
+  position: relative;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 55px;
+  line-height: 1.2;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 38px;
+  line-height: 1.26;
+}
+
+h3 {
+  font-size: 20px;
+  line-height: 1.65;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+/* Приховування заголовка - Hidden headers */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/* Buttons  */
+.button__primary {
+  display: inline-block;
+  min-width: 167px;
+  height: 50px;
+  border: 1px solid var(--primary-background-color);
+  border-radius: 5px;
+  padding: 10px 30px;
+
+  cursor: pointer;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: right;
+  line-height: 1.56;
+  color: var(--secondary-text-color);
+}
+
+.button-callback {
+  width: 100%;
+  height: 42px;
+  padding: 7px 277px 10px 291px;
+
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.39;
+  text-align: center;
+  cursor: pointer;
+  color: var(--secondary-text-color);
+  background-color: var(--main-color);
+  border: 0 solid transparent;
+  border-radius: 5px;
+}
+
+[data-aos='new-animation'] {
+  // opacity: 0;
+  // transition-property: transform, opacity;
+
+  transform: translateX(-50vw);
+
+  &.aos-animate {
+    // opacity: 1;
+    transform: translateX(0);
+  }
+}

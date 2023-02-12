@@ -1,0 +1,31 @@
+.cases {
+  padding: 50px 28px;
+}
+
+.cases__subtitle {
+  font-size: 20px;
+  line-height: 1.65;
+  text-align: center;
+}
+
+.cases__title {
+  margin-bottom: 34px;
+
+  text-align: center;
+}
+
+.cases__text {
+  margin-bottom: 39px;
+
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+}
+
+.cases__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
